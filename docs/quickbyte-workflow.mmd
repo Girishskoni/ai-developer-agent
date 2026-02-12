@@ -1,0 +1,8 @@
+flowchart TD
+  Customer_Places_Order --> Order_Received_by_Restaurant
+  Order_Received_by_Restaurant --> Food_Prepared
+  Food_Prepared --> Delivery_Driver_Assigned
+  Delivery_Driver_Assigned --> Food_Picked_Up
+  Food_Picked_Up --> Food_Delivered
+  Food_Delivered --> Payment_Processed
+  Payment_Processed --> Order_Complete
