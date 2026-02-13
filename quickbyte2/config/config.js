@@ -1,4 +1,0 @@
-module.exports = {
-  JWT_SECRET: 'your_jwt_secret',
-  STRIPE_SECRET_KEY: 'your_stripe_secret_key'
-};

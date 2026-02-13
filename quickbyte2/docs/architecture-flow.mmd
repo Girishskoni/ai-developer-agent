@@ -1,9 +1,0 @@
-flowchart TD
-    User -->|"HTTP Request"| API["Express API"]
-    API --> Routes
-    Routes --> Controllers
-    Controllers --> DB["Database"]
-    DB --> Controllers
-    Controllers --> Routes
-    Routes --> API
-    API -->|"HTTP Response"| User
